@@ -17,7 +17,7 @@ read no
 if [ $no = 1 ]
 then
 clear
-bash down.sh
+mpsyt
 fi
 
 if [ $no = 2 ] 
