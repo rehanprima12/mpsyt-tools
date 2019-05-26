@@ -11,7 +11,7 @@ sleep 1
 if [ $yn = y ]
 then 
 echo "menyiapkan command.."
-pkg install -y python ffmpeg mpv
+apt install -y python ffmpeg mpv
 echo "memulai setup kedua"
 sleep 1
 pip install youtube-dl
